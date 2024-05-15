@@ -184,50 +184,10 @@ img {
 /* media queri */
 /* TABLET */
 
-@media screen and (max-widht: 1024px) {
-    .grid-container {
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3, 300px);
-        grid-gap: 20px;
-        grid-template-areas: 
-        "box-1 box-2 box3"
-        "box-4 box-5 box6";
-      }
-    
-    .grid-container div{
-        background-color: rgb(199, 96, 96);
-        text-align: center;
-        padding: 100px;
-        margin-left: 56px;
-        margin-right: 56px;
-        border-radius: 12px;
-    }
-    
-}
+
 
 
 /* MOBILE */
-@media screen and (max-widht: 768px) {
-    .grid-container {
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3, 300px);
-        grid-gap: 20px;
-        grid-template-areas: 
-        "box-1 box-2 box3"
-        "box-4 box-5 box6";
-      }
-    
-    .grid-container div{
-        background-color: rgb(199, 96, 96);
-        text-align: center;
-        padding: 100px;
-        margin-left: 56px;
-        margin-right: 56px;
-        border-radius: 12px;
-    }
-    
-}
-
 
     
 
