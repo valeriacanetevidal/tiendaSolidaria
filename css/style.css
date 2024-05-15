@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+span{      
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: chartreuse;
+      } 
+      
+      
+*{
+  padding: 0;
+  margin: 0;  
+  box-sizing: border-box;
+  align-items: center;
+}          
+
+body{
+    background-color: #DADCF3;
+}
+
+
+.header{
+    background-color: #8990C8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    padding: 56px;
+    position: sticky;
+    top: 0;
+}
+
+.header .logo h1{
+    padding-top: 40px;
+
+}
+    
+
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+    padding-right: 16px;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover{
+    transform: scale(1.1);
+}
+
+.header .nav-links{
+    list-style: none;
+    display: flex;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+    padding-top: 40px;
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+.header .nav-links a{
+    font-size: 700;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header .nav-links li a:hover{
+    color: #D5A265;
+}
+
+.logo{
+    display: flex;
+}
+
+
+/* estilos globales */
+h1{
+   color: #363455; 
+}
+
+/* class */
+.colorRojo{
+    color: red;
+}
+
+/* id */
+#colorVioleta{
+    color: blueviolet;
+}
+
+.tipografiaPesada{
+    font-weight: lighter;
+
+}
+
+section.listaOrdenada{
+    background-color: aqua;
+}
+
+.boxModel .caja{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    
+}
+
+.boxModel .caja1{
+    background-color: cadetblue;
+    padding: 16px;
+    margin: 32px;
+    border-radius: 12px;
+   
+}
+
+.boxModel .caja2{
+    background-color: aqua;
+    padding: 16px;
+    margin: 32px;
+    border-radius: 12px;
+}
+
+.boxModel .caja3{
+    background-color: blueviolet;
+    padding: 16px;
+    margin: 32px;
+    border-radius: 12px;
+}
+
+/* galeria index */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 300px);
+    grid-gap: 20px;
+    grid-template-areas: 
+    "box-1 box-2 box3"
+    "box-4 box-5 box6";
+  }
+
+.grid-container div{
+    background-color: rgb(199, 96, 96);
+    text-align: center;
+    padding: 100px;
+    margin-left: 56px;
+    margin-right: 56px;
+    border-radius: 12px;
+}
+
+.grid-container .div box-1{
+    background-color: rgb(0, 100, 0);
+    grid-area: box-1;
+
+} 
+
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+

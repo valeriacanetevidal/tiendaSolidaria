@@ -1,0 +1,96 @@
+LISTA DESORDENADA: No importa el orden
+ul -->li
+
+LISTA ORDENADA: Importa el orden de los items
+ol -->li
+**todas las listas deben tener mas de 1 elemento
+
+IMAGEN
+<img src="" alt="(descripcion de la foto)">
+
+**imagen en el head-->FAVICON es el que aparece al lado del nombre en la pestaña del navegador
+
+VIDEO
+<video src=" " muted controls autoplay loop ></video>
+Atributos
+-Muted: el video es muteado
+-Autoplay: Inicia automaticamente al cargar
+-Loop: Se reproduce infinitamente
+-Controls: Muestra controles para el video
+
+IFRAME
+*YT
+*SPOTIFY
+*GOOGLE.MAPS
+
+NOMENCLATURA PARA NOMBRES
+kebab-case
+camelCase
+snake_cas
+
+Los NO para los nombres: 
+-caracteres especiales (ñ)
+-espacios entre palabras
+-iniciar nombre con mayuscula
+-nombres por completo en mayuscula
+
+
+
+CSS
+Crear una carpeta y dentro un archivo styles.css
+Linkear este archivo en el head de cada html <link rel="stylesheet" href="./css/style.css"> (la ruta varia si es desde index o desde html dentro de una subcarpeta)
+
+➡️Como aplicar estilos desde css 
+selector { propiedad : valor}
+Aplicar estilos por etiqueta, class o id
+
+
+⚠️ID: De uso unico dentro html(recomendado para estructuras grandes, se usa menos en css)   👉como lo llamo en css: #nombreDeId  
+⚠️CLASS: Se puede reutilizar (recomendado para aplicar estilos)  👉como lo llamo en css: .nombreDeClase
+
+
+⚠️Propiedades en cascada
+El navegador lee de arriba hacia abajo, ante la misma propiedad con diferentes valores prevalece el que se ubica en ultimo lugar
+
+⚠️⚠️Importancia de los selectores (de menor a mayor)
+-Etiqueta
+-Clase
+-ID
+-Estilos en linea en el html
+-!important (se usa como ultimo recurso, no mas de 3 por proyecto)
+
+⚠️ESPECIFICIDAD: Para llamar los elementos en el css voy a respetar la jerarquia del html 
+
+⚠️Herencia
+Las propiedades se heredan de padre a hijo.
+Por ejemplo se puede heredar la tipografia para todo el documento si la aplicamos al body
+Depende de anidacion
+
+
+PROPIEDADES
+width (con % o px)
+height (con % o px)
+font-family (con google fonts y con @font-face)
+**google fonts : se puede linkear en cada html o importar en css, recomiendo importar . Armar 1 solo link para todas las tipografias del proyecto
+font-size (con px/rem)
+font-style
+font-weight
+list-style 
+text-align
+text-decoration
+color
+background-color
+background-image
+background-position
+background-repeat
+background-size
+background-attachment
+
+✍️LINKS
+FONTAWESOME  https://fontawesome.com/
+FAVICON  https://favicon.io/favicon-converter/
+GOOGLE FONTS: https://fonts.google.com/
+BLUE VERTIGO  https://www.bluevertigo.com.ar/
+BACKGROUND PATTERN https://heropatterns.com/
+COLORES https://coolors.co/
+PALETA DE COLORES  https://flatuicolors.com/
